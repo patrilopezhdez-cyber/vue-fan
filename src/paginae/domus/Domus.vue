@@ -1,32 +1,66 @@
 <script setup lang="ts">
 import { Button } from '@/components/ui/button'
+import { RouterLink } from 'vue-router';
 
 </script>
 
 
 <template>
 
-<div class="cappa">
-  <h1>Home Page</h1>
+<div class="fondo-home">
+
+  <h1>
+    <span>Diseño</span> Web y 
+    <br>Apps <span> Interactivas</span>
+  </h1>
+
+  <div class="botones">
+
+    <Button variant="default">
+    <RouterLink to="/indecision">Sí o No</RouterLink>
+    </Button>
+
+    <Button variant="default">
+    <RouterLink to="/batman">Batman</RouterLink>
+    </Button>
+
+    <Button variant="default">
+    <RouterLink to="/simpsons">Simpsons</RouterLink>
+    </Button>
+
+    <Button variant="default">
+    <a href="https://www.upv.es">UPV</a>
+    </Button>
+
+  </div>
   
-  <Button variant="secondary" class="bg-green-500 px-12 py-8 text-3xl hover:bg-green-700" >
-    Cilck me
-  </Button>
 </div>
   
 </template>
 
 <style scoped>
-.cappa {
-  margin: 20px;
+
+.batman{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 12px;
+.fondo-home {
+  background-color: rgb(21, 25, 52);
+  height: 100vh;
+  color: rgb(24, 182, 246);
 }
 
-Button{
-  padding: 0, 80px;
-}
+
+.botones > Button {
+  margin-right: 0.5rem;
+  background-color: rgb(24, 182, 246);
+} 
+
+
+.botones > Button:hover {
+  background-color: rgba(24, 182, 246, 0.7);
+} 
+
+
+
 </style>

@@ -30,7 +30,7 @@ import { Button } from '@/components/ui/button';
     <div class="flex gap-12">
         <img src="/imagines/simpsons/bart.png" alt="" class="object-contain hidden md:block" width="200px">
         <img src="/imagines/simpsons/homer.png" alt="" class="object-contain hidden md:block mt-20" width="195px">
-        <img src="/imagines/simpsons/moe-s.png" alt="" lass="object-contain mt-12 md:mt-0" width="240px">
+        <img src="/imagines/simpsons/moe.png" alt="" lass="object-contain mt-12 md:mt-0" width="240px">
 
     </div>
 

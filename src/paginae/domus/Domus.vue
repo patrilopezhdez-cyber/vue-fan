@@ -27,6 +27,8 @@ if(eventus.key === "Enter"){
       path: '/indecision',
       state: {quaestio: textusItinerans}
     })
+
+    quaestio.value =''
   }
 }
 }
@@ -55,8 +57,8 @@ if(eventus.key === "Enter"){
   <div class="z-10 ">
 
   <Dialog
-    :open="dialogAperturaEst"
-    @update:open="dialogAperturaEst = $event"
+    :open="dialogApertaEst"
+    @update:open="dialogApertaEst = $event"
   >
       <DialogTrigger as-child>
         <Button variant="default" class="mr-2 bg-[rgb(24,188,246)] md:py-5 md:px-6 md:text-lg hover:bg-[rgba(24,188,246,0.7)] transition-all">

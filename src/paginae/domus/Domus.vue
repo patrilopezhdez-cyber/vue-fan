@@ -39,7 +39,7 @@ if(eventus.key === "Enter"){
 
 <template>
 
-<div class="bg-[rgb(21,25,52)] h-screen text-white font-sans text-center flex flex-col items-center justify-center gap-12 w-screen fixed overflow-hidden">
+<div class="bg-[rgb(21,250,52)] h-screen text-white font-sans text-center flex flex-col items-center justify-center gap-12 w-screen fixed overflow-hidden">
 
 <img class="absolute opacity-20" src="/imagines/tonitrui.png" alt="">
 

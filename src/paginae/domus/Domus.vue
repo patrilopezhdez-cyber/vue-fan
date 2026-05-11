@@ -39,7 +39,7 @@ if(eventus.key === "Enter"){
 
 <template>
 
-<div class="bg-[rgb(21,250,52)] h-screen text-white font-sans text-center flex flex-col items-center justify-center gap-12 w-screen fixed overflow-hidden">
+<div class="bg-[rgb(21,25,52)] h-screen text-white font-sans text-center flex flex-col items-center justify-center gap-12 w-screen fixed overflow-hidden">
 
 <img class="absolute opacity-20" src="/imagines/tonitrui.png" alt="">
 
@@ -95,6 +95,10 @@ if(eventus.key === "Enter"){
 
     <Button variant="default" class="mr-2 bg-[rgb(24,188,246)] md:py-5 md:px-6 md:text-lg hover:bg-[rgba(24,188,246,0.7)] transition-all">
     <a href="https://www.upv.es">UPV</a>
+    </Button>
+
+    <Button variant="default" class="mr-2 bg-[rgb(24,188,246)] md:py-5 md:px-6 md:text-lg hover:bg-[rgba(24,188,246,0.7)] transition-all">
+    <RouterLink to="/pokemon">Pokémon</RouterLink>
     </Button>
 
   </div>

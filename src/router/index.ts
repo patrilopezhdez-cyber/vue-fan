@@ -7,6 +7,9 @@ import Circa from "@/paginae/simpsons/Circa.vue";
 import Layout from "@/paginae/simpsons/Layout.vue";
 import Collectioine from "@/paginae/simpsons/Collectioine.vue";
 import Character from "@/paginae/simpsons/Character.vue";
+import Pokemon from "@/paginae/pokemon/Pokemon.vue";
+import Pokedex from "@/paginae/pokemon/Pokedex.vue";
+
 
 export const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -64,6 +67,22 @@ export const router = createRouter({
       path: '/indecision',
       name: 'indecision',
       component: Responsum
+    },
+    {
+      path: '/pokemon',
+      children:[
+        {
+        path:'',
+        name: 'Pokemon',
+        component: Pokemon
+      },
+      {
+        path:'pokedex',
+        name: 'pokedex',
+        component:Pokedex 
+      }
+      ]
+      
     },
     {
       path: '/:pathMatch(.*)',

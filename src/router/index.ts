@@ -9,6 +9,8 @@ import Collectioine from "@/paginae/simpsons/Collectioine.vue";
 import Character from "@/paginae/simpsons/Character.vue";
 import Pokemon from "@/paginae/pokemon/Pokemon.vue";
 import Pokedex from "@/paginae/pokemon/Pokedex.vue";
+import About from "@/paginae/pokemon/About.vue";
+import Medallas from "@/paginae/pokemon/Medallas.vue";
 
 
 export const router = createRouter({
@@ -77,9 +79,19 @@ export const router = createRouter({
         component: Pokemon
       },
       {
+        path:'About',
+        name: 'about',
+        component: About 
+      },
+      {
         path:'pokedex',
         name: 'pokedex',
         component:Pokedex 
+      },
+      {
+        path:'medallas',
+        name: 'medallas',
+        component:Medallas 
       }
       ]
       

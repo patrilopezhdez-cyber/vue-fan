@@ -3,12 +3,12 @@ import { ref, } from 'vue';
 
 const indice = ref(0)
 
-const frases=[
-   "¡Hola! Bienvenido al mundo de los Pokémon.",
-    "Mi nombre es Oak. ¿Estás listo para esta aventura?",
-    "En esta web conocerás los orígenes en la región de Kanto.",
-    "Explora la Pokedex para ver los 20 primeros especímenes.",
-    "¡Haz clic en los botones de arriba para empezar!"
+const frases = [
+  "¡Saludos! Mi nombre es Oak, aunque todos me conocen como el Profesor Oak. ¡Bienvenido al fascinante mundo de los Pokémon!",
+  "He dedicado toda mi vida a estudiar la convivencia, el desarrollo y los misterios de estas increíbles criaturas.",
+  "En esta Pokédex que he preparado, podrás analizar al detalle los 20 primeros especímenes de la región.",
+  "Además, descubrirás los orígenes de la histórica Kanto y los secretos de sus icónicos Líderes de Gimnasio.",
+  "¡Te espera una aventura increíble! Utiliza los botones de la barra superior para iniciar tu investigación."
 ]
 
 function sigFrase(){
@@ -67,9 +67,9 @@ function sigFrase(){
 
     <div
     @click="sigFrase"
-    class="w-[90%] h-[150px] md:h-[250px] max-w-2xl border-3 border-gray-800 bg-white px-6 py-4 mb-15 z-20 relative cursor-pointer">
+    class="w-[90%] h-[150px] md:h-[250px] max-w-2xl border-3 border-gray-900 bg-white px-6 py-4 mb-15 z-20 relative cursor-pointer rounded-sm">
         <div 
-      class="absolute -top-12 left-0 p-2 px-6 border-3 border-gray-800 font-btnpixel text-[12px] text-gray-800 bg-white">
+      class="absolute -top-12 -left-1 p-2 px-6 border-3 border-gray-900 font-btnpixel text-[12px] bg-white rounded-sm">
         PROF. OAK
     </div>
 
@@ -78,7 +78,7 @@ function sigFrase(){
       </p>
       
       <button 
-      class="absolute bottom-4 right-5 font-btnpixel text-[10px] text-gray-600">
+      class="absolute bottom-3 right-5 px-2 py-0.5 pt-1 text-[8px] font-btnpixel border-2 border-gray-800 rounded-sm text-white bg-blue-500 uppercase">
         SIGUIENTE
       </button>
     </div>

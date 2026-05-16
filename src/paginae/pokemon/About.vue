@@ -78,7 +78,7 @@ function sigFrase(){
       </p>
       
       <button 
-      class="absolute bottom-3 right-5 px-2 py-0.5 pt-1 text-[8px] font-btnpixel border-2 border-gray-800 rounded-sm text-white bg-blue-500 uppercase">
+      class=" cursor-pointer absolute bottom-3 right-5 px-2 py-0.5 pt-1 text-[8px] font-btnpixel border-2 border-gray-800 rounded-sm text-white bg-blue-500 uppercase">
         SIGUIENTE
       </button>
     </div>

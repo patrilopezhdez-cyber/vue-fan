@@ -64,7 +64,7 @@ const colores = {
                 </span>
             </div>
 
-            <div class="p-5 flex justify-center items-center bg-gray-100">
+            <div class="p-5 flex justify-center items-center bg-blue-50">
                 <img 
                     class="w-50 h-50 object-contain" 
                     :src="pokemon.imagen" 
